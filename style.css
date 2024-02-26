@@ -1,0 +1,137 @@
+.text-area-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+.text-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+
+.text-area {
+  height: fit-content;
+  resize: none;
+  width: 70vw;
+  height: 40vh;
+  border: 0.25rem solid transparent;
+  background-color: #e2e2e2;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  margin-bottom: 2vh;
+}
+
+.text-button {
+  font-size: 1.5rem;
+  font-weight: 550;
+  border-color: transparent;
+  border-radius: 0.7rem;
+  padding: 1vh 3vh;
+  background-color: #33805b;
+  margin-top: 1vh;
+}
+
+.text-button:hover {
+  background-color: #c4d0dd;
+  cursor: pointer;
+}
+
+header {
+  height: 12vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header-div-list {
+  width: 50vw;
+  height: 12vh;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: end;
+  justify-content: center;
+  padding: 0;
+}
+
+.header-list {
+  width: 40vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-list-item {
+  list-style-type: none;
+  margin-left: 2vw;
+}
+
+.header-list-item:not(:last-child):after {
+  content: "|";
+  margin-left: 2vw;
+}
+
+a {
+  background-color: #33805b;
+  color: black;
+  padding: 2vh 3vh;
+  border-radius: 1.5vh;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #c4d0dd;
+  cursor: pointer;
+}
+
+footer {
+  width: 100vw;
+  height: 1vh;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 650;
+  text-transform: uppercase;
+}
+
+.main-heading {
+  background-color: #c4d0dd;
+  padding: 1vh 2vw;
+  border-radius: 1.5vh;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  background-color: #72be99;
+  overflow-x: hidden;
+}
+
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
